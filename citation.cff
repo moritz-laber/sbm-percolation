@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "SBM Percolation"
+type: software
+message: "If you use this work, please cite the paper below."
+authors:
+  - given-names: Moritz
+    family-names: Laber
+repository-code: "https://github.com/moritz-laber/sbm-percolation"
+
+preferred-citation:
+  type: article
+  title: "Percolation in the Stochastic Block Model"
+  authors:
+  - given-names: Luca
+    family-names: Pieleanu
+  - given-names: Narayan
+    family-names: Sabhahit
+  - given-names: Moritz
+    family-names: Laber
+  - given-names: Dmitri
+    family-names: Krioukov
+  journal: "arXiv"
+  year: 2026
+  eprint: "arXiv:????.?????"
+  url: "https://arxiv.org/abs/????.?????"
