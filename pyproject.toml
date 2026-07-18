@@ -1,0 +1,39 @@
+[project]
+name = "sbm_percolation"
+version = "0.1.0"
+description = "Percolation experiments in Stochastic Block Model Sequences."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+authors = [
+    {name = "Luca Pieleanu"},
+    { name = "Narayan Sabhahit"},
+    { name = "Moritz Laber"},
+    { name = "Dmitri Krioukov"}
+]
+
+dependencies = [
+    "numpy>=2.3.0",
+    "scipy>=1.16.0",
+    "more_itertools>=10.8.0"
+]
+
+[project.optional-dependencies]
+tutorial = [
+    "matplotlib>=3.10.0",
+    "jupyterlab>=4.4.0"
+]
+
+[project.urls]
+Repository = "https://github.com/moritz-laber/sbm-percolation"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
