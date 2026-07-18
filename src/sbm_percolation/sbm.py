@@ -242,6 +242,8 @@ def _generate_sbm_mh(b:ArrayLike, P:ArrayLike, rng:np.random.Generator) -> List[
 
         # determine the current block pair
         p = sorted_ps[ij]
+        if p == 0:
+            break
 
         # sample the geometric distribution with success p and take a step of length k
         k = rng.geometric(p)
