@@ -323,7 +323,7 @@ def _generate_sbm_bb(b:ArrayLike, P:ArrayLike, rng:np.random.Generator) -> List[
                 
     return edges
 
-def generate_sbm(b:ArrayLike, P:ArrayLike, rng:np.random.Generator, algorithm:str='bb') -> List[Tuple[int, int]]:
+def generate_sbm(b:ArrayLike, P:ArrayLike, rng:np.random.Generator, algorithm:str='mh') -> List[Tuple[int, int]]:
     """Generate a graph from the Stochastic Block Model with group assignments b and connection\
         proability matrix P.
 
