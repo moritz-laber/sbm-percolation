@@ -1,19 +1,19 @@
 # sbm-percolation
 
-Code for the paper **Percolation in the Stochastic Block Model** by L. Pieleanu, N.G. Sabhahit, M. Laber, and D. Krioukov.
+Code for the paper **Percolation in the Stochastic Block Model** by L. Pieleanu, M. Laber, N.G. Sabhahit, and D. Krioukov.
 
-If you use this software, please cite:
-
+<!-- If you use this software, please cite:
 ```LaTeX
-@article{pieleanu2026_sbmpercolation,
+@misc{pieleanu2026_sbmpercolation,
   title = {Percolation in the Stochastic Block Model},
-  author = {Pieleanu, Luca and Sabhahit, Narayan G. and Laber, Moritz and Krioukov, Dmitri},
+  author = {Pieleanu, Luca and Laber, Moritz and Sabhahit, Narayan G. and Krioukov, Dmitri},
   year = {2026},
-  month = {??},
-  journal = {arXiv},
-  doi = {????},
+  month = sep,
+  doi = {doi/????},
+  eprint = {???},
+  arxivprefix = {???}
 }
-```
+``` -->
 
 ## Installation
 
